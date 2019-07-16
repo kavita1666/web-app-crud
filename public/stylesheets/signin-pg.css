@@ -1,0 +1,64 @@
+.signIn-card{
+    width: 40%;
+    height: 60%;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px  rgb(199, 199, 199);
+
+}
+.signIn-card h1{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 40px;
+    left: 38%;
+    color: rgb(33, 108, 206);
+    letter-spacing: 1px;
+}
+.signIn-card form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.signIn-card input{
+    margin-bottom: 20px;
+}
+.email-img{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    opacity: .3;
+}
+.pwd-img{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 85px;
+    left: 5%;
+    opacity: .3;
+
+}
+.signIn-card a{
+    font-size: 15px;
+    position: absolute;
+    top: 105%;
+    left: 33%;
+    list-style: none;
+    color: rgb(118, 29, 202);
+}
+.signIn-card button{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(33, 108, 206);
+    font-weight: 500;
+    letter-spacing: 1px;
+}

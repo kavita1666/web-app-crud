@@ -1,0 +1,42 @@
+
+<%- include('./header.ejs') %>
+
+<%- include('./nav.ejs') %>
+<% include('./contact.ejs') %>
+
+<div class="form-details-pg">
+
+<h1>Let's get started now!</h1>
+<p>or <span>create an account</span> if not registered yet</p>
+
+<div class="form-page">
+
+  <div class="signIn-page">
+    <h1>Welcome Back!</h1>
+    <p>To keep Connected with us please login with your personal info.</p>
+    <a href="/signIn">SIGN IN</a>
+  </div>
+
+  <div class="signUp-page">
+    <h1>Create Account</h1>
+
+    <%- include('./msg.ejs') %>
+    <form action="/register" method="POST">
+      <input type="text" name="name" placeholder="Rajashree Gotta" value="<%= typeof name != 'undefined' ? name : '' %> ">
+      <img src="/images/user.png" id="user-img" alt="">
+      <input type="email" name="email" placeholder="bewakuff@gmail.com" value="<%= typeof email != 'undefined' ? email : '' %>">
+      <img src="/images/mail-black-envelope-symbol.png" id="email-img" alt="">
+      <input type="password" id="signIn-pwd" name="password" placeholder="********" value="<%= typeof password != 'undefined' ? password : '' %>">
+      <img src="/images/lock.png" id="pwd-img1" alt="">
+      <input type="password" id="signIn-cpwd" name="confirmPassword" placeholder="********" value="<%= typeof confirmPassword != 'undefined' ? confirmPassword : '' %>">
+      <img src="/images/lock.png" id="pwd-img2" alt="">
+      <input type="file" >
+      <button>SIGN UP</button>
+    </form>
+
+  </div>
+
+</div>
+</div>
+
+<%- include('./footer.ejs') %>

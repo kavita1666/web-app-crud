@@ -1,0 +1,19 @@
+<%- include('./header.ejs') %>
+
+<%- include('./nav.ejs') %>
+<% include('./contact.ejs') %>
+
+<div class="signIn-card">
+    <h1>USER LOGIN</h1>
+    <%- include('./msg.ejs') %>
+    <form action="/home" method="POST">
+        <input type="email" class="email-signIn" name="email" placeholder="abdul@gmail.com">
+        <img src="/images/mail-black-envelope-symbol.png" class="email-img" alt="">
+        <input type="password" class="signIn-password" name="password" placeholder="********">
+        <img src="/images/lock.png" class="pwd-img" alt="">
+        <a href="/home">Forget Password?</a>
+        <button>LOGIN</button>
+    </form>
+</div>
+
+<%- include('./footer.ejs') %>

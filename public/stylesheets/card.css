@@ -1,0 +1,151 @@
+.form-details-pg h1{
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.form-details-pg p{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 450px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+
+}
+.form-details-pg span{
+    font-weight: 600;
+}
+.form-page{
+    width: 60%;
+    height: 60%;
+    background-color: transparent;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px  rgb(199, 199, 199);
+    display: flex;
+}
+.signIn-page{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(2, 28, 70);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.signIn-page h1{
+    position: absolute;
+    top: 30%;
+    left: 5.5%;
+    color: white; 
+}
+.signIn-page p{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    color: rgb(11, 139, 90);
+    font-size: 12px;
+    width: 250px;
+    text-align: center;
+}
+.signIn-page a{
+    border: none;
+    border: 1px solid rgb(11, 139, 90);
+    color: rgb(187, 196, 192);
+    padding: 7px 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: 55%;
+    left: 9.5%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.signUp-page{
+    width: 65%;
+    height: 100%;
+    background-color: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* position: absolute; */
+}
+.signUp-page h1{
+    position: absolute;
+    top: 3%;
+    left: 55%;
+    font-weight: 600;
+    color:rgb(2, 28, 70); 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 48%;
+}
+input{
+    padding: 15px 0;
+    padding-left: 60px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    
+}
+#user-img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    opacity: .5;
+}
+#email-img{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    opacity: .3;
+}
+#pwd-img1{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 150px;
+    left: 5%;
+    opacity: .3;
+
+}
+#pwd-img2{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 220px;
+    left: 5%;
+    opacity: .3;
+
+}
+button{
+    width: 50%;
+    padding: 10px 0;
+    position: absolute;
+    top: 114%;
+    left: 25%;
+    border-radius: 50px;
+    background-color:rgb(2, 28, 70);
+    color: rgb(228, 228, 228);
+    border: none; 
+}
+input[type=file]{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    position: absolute;
+    left: 20%;
+    top: 100%;
+}
